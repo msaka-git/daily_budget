@@ -34,6 +34,7 @@ class calculation():
             sql_date_insert=end_day + ',' + this_month + ',' + this_year
 
             end_date_cal=int(end_day)+int(self.days)
+            print(end_date_cal)
             end_date=datetime.today().strftime("%Y-%m-{}").format(end_date_cal)
 
 
